@@ -51,5 +51,5 @@ docker_container 'grafana' do
   action :run
   restart_policy 'always'
   port node['grafana']['docker_port']
-  volumes ['/etc/grafana/provisioning:/etc/grafana/provisioning','/var/lib/grafana/dashboards:/var/lib/grafana/dashboards']
+  volumes ['/etc/grafana/provisioning:/etc/grafana/provisioning', '/var/lib/grafana/dashboards:/var/lib/grafana/dashboards']
 end

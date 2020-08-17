@@ -11,9 +11,6 @@ verifier:
 
 platforms:
   - name: centos-7
-    driver_config:
-      cpus: 4
-      memory: 1024
 
 suites:
   - name: default
