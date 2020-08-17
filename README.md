@@ -12,6 +12,7 @@ Grafana is prepared with two dashboards for `docker` containers and `node_export
 # How to use
 Each service/container have their own attributes and recipes. 
 You can use `installnode.rb` recipe, which includes all needed recipes.
+`base.rb` recipe disabling default Centos 7 firewall. This is for demo purpose only.
 
 # Things to consider
 Grafana comes with two predefined dashboards. If more dashboards will be created later, it's worth considering persistent storage for grafana container.
