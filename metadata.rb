@@ -1,0 +1,5 @@
+name 'docker-prom'
+description 'Demo cookbook for installing docker, prometheus, grafana, nodeexporter and cadvisor'
+version '0.1.0'
+chef_version '>= 16.0'
+depends 'docker'
